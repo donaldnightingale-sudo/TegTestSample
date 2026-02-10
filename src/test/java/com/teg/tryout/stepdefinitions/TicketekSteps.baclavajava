@@ -1,0 +1,21 @@
+package com.tek.tryout.TicketekSteps;
+
+import com.tek.tryout.pages.PremierTicketekPage;
+import io.cucumber.java.en.Given;
+import org.openqa.selenium.WebDriver;
+
+public class TicketekSteps {
+
+    private WebDriver driver;
+    private PremierTicketekPage ticketekPage;
+
+    public TicketekSteps(TestContext context) {
+        this.driver = context.getDriver();
+        this.ticketekPage = new PremierTicketekPage(driver);
+    }
+
+    @Given("I open the Premier Ticketek event page")
+    public void i_open_the_premier_ticketek_event_page() {
+        ticketekPage.open();
+    }
+}

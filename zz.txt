@@ -1,0 +1,322 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:selenium-bdd >----------------------
+[INFO] Building selenium-bdd 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ selenium-bdd ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Workplace\TegTestSample\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ selenium-bdd ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ selenium-bdd ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ selenium-bdd ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 13 source files with javac [debug release 17] to target\test-classes
+[INFO] /D:/Workplace/TegTestSample/src/test/java/com/teg/tryout/runners/TestRunner.java: D:\Workplace\TegTestSample\src\test\java\com\teg\tryout\runners\TestRunner.java uses or overrides a deprecated API.
+[INFO] /D:/Workplace/TegTestSample/src/test/java/com/teg/tryout/runners/TestRunner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ selenium-bdd ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.teg.tryout.TestRunner.TestRunner
+
+Scenario: Basket the zero valued admit with In app delivery option # file:///D:/Workplace/TegTestSample/src/test/resources/features/navigation.feature:3
+Page1
+Page2
+Page opened successfully, menu button present.
+  ? Given I open the Ticketek event page                           # com.teg.tryout.stepdefinitions.NavigationSteps.i_open_the_ticketek_event_page()
+clickElementByText 'Show menu options' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Show menu options']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Show menu options']/ancestor::*[self::button or @role='button']
+Found element 'Show menu options' using XPATH: //li[contains(@class,'menu-parent')]//a[@title='Show menu options']
+  ? Then I Click "Show menu options"                               # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+clickElementByText 'Sign In / Sign up' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Sign In / Sign up']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Sign In / Sign up']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Sign In / Sign up']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Sign In / Sign up')]]
+No candidates found for XPATH: //a[@title='Sign In / Sign up']
+No candidates found for XPATH: //a[normalize-space(@title)='Sign In / Sign up']
+Found element 'Sign In / Sign up' using XPATH: //a[normalize-space(text())='Sign In / Sign up']
+  ? Then I Click "Sign In / Sign up"                               # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Email*']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Email*']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Email*']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Email*')]]
+No candidates found for XPATH: //a[@title='Email*']
+No candidates found for XPATH: //a[normalize-space(@title)='Email*']
+No candidates found for XPATH: //a[normalize-space(text())='Email*']
+No candidates found for XPATH: //button[normalize-space(text())='Email*']
+No candidates found for XPATH: //span[normalize-space(text())='Email*']
+Found element 'Email*' using XPATH: //input[@id=//label[normalize-space()='Email*']/@for]
+  ? Then I Update "Email*" to "Donald_Nightingale@hotmail.com"     # com.teg.tryout.stepdefinitions.NavigationSteps.i_update(java.lang.String,java.lang.String)
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Password*']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Password*']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Password*']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Password*')]]
+No candidates found for XPATH: //a[@title='Password*']
+No candidates found for XPATH: //a[normalize-space(@title)='Password*']
+No candidates found for XPATH: //a[normalize-space(text())='Password*']
+No candidates found for XPATH: //button[normalize-space(text())='Password*']
+No candidates found for XPATH: //span[normalize-space(text())='Password*']
+Found element 'Password*' using XPATH: //input[@id=//label[normalize-space()='Password*']/@for]
+  ? Then I Update "Password*" to "4micAcid!!!!"                    # com.teg.tryout.stepdefinitions.NavigationSteps.i_update(java.lang.String,java.lang.String)
+clickElementByText 'Sign In' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Sign In']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Sign In']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Sign In']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Sign In')]]
+No candidates found for XPATH: //a[@title='Sign In']
+No candidates found for XPATH: //a[normalize-space(@title)='Sign In']
+No candidates found for XPATH: //a[normalize-space(text())='Sign In']
+No candidates found for XPATH: //button[normalize-space(text())='Sign In']
+No candidates found for XPATH: //span[normalize-space(text())='Sign In']
+No candidates found for XPATH: //input[@id=//label[normalize-space()='Sign In']/@for]
+Found element 'Sign In' using XPATH: //input[@type='submit' and @value='Sign In']
+  ? Then I Click "Sign In"                                         # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I sleep for 10 seconds                                    # com.teg.tryout.stepdefinitions.NavigationSteps.i_sleep(int)
+clickElementByText '7:00 pm' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='7:00 pm']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='7:00 pm']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='7:00 pm']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), '7:00 pm')]]
+No candidates found for XPATH: //a[@title='7:00 pm']
+No candidates found for XPATH: //a[normalize-space(@title)='7:00 pm']
+No candidates found for XPATH: //a[normalize-space(text())='7:00 pm']
+No candidates found for XPATH: //button[normalize-space(text())='7:00 pm']
+No candidates found for XPATH: //span[normalize-space(text())='7:00 pm']
+No candidates found for XPATH: //input[@id=//label[normalize-space()='7:00 pm']/@for]
+No candidates found for XPATH: //input[@type='submit' and @value='7:00 pm']
+No candidates found for XPATH: //input[@type='button' and @value='7:00 pm']
+No candidates found for XPATH: //label[normalize-space(.)='7:00 pm']
+No candidates found for XPATH: //div[normalize-space(.)='7:00 pm']
+No candidates found for XPATH: //label[contains(normalize-space(.), '7:00 pm')]
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.),'7:00 pm')]]//input[@type='radio']
+Looking for element '7:00 pm' inside Shadow DOM
+waitForPageReady7:00 pm
+Found element '7:00 pm' inside Shadow DOM
+  ? Then I Click "7:00 pm"                                         # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+clickElementByText 'Select' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Select']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Select']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Select']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Select')]]
+No candidates found for XPATH: //a[@title='Select']
+No candidates found for XPATH: //a[normalize-space(@title)='Select']
+No candidates found for XPATH: //a[normalize-space(text())='Select']
+Found element 'Select' using XPATH: //button[normalize-space(text())='Select']
+  ? Then I Click "Select"                                          # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I sleep for 10 seconds                                    # com.teg.tryout.stepdefinitions.NavigationSteps.i_sleep(int)
+clickElementByText '+' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='+']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='+']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='+']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), '+')]]
+No candidates found for XPATH: //a[@title='+']
+No candidates found for XPATH: //a[normalize-space(@title)='+']
+No candidates found for XPATH: //a[normalize-space(text())='+']
+No candidates found for XPATH: //button[normalize-space(text())='+']
+No candidates found for XPATH: //span[normalize-space(text())='+']
+No candidates found for XPATH: //input[@id=//label[normalize-space()='+']/@for]
+No candidates found for XPATH: //input[@type='submit' and @value='+']
+No candidates found for XPATH: //input[@type='button' and @value='+']
+No candidates found for XPATH: //label[normalize-space(.)='+']
+Found element '+' using XPATH: //div[normalize-space(.)='+']
+  ? Then I Click "+"                                               # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I sleep for 5 seconds                                     # com.teg.tryout.stepdefinitions.NavigationSteps.i_sleep(int)
+clickElementByText 'In app' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='In app']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='In app']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='In app']
+Found element 'In app' using XPATH: //li[.//label[contains(normalize-space(.), 'In app')]]
+  ? Then I Click "In app"                                          # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+clickElementByText 'Next' clickElementByText
+waitForPageReady
+waitForPageReady
+Found element 'Next' using XPATH: //span[normalize-space()='Next']/ancestor::*[self::button or @role='button']
+  ? Then I Click "Next"                                            # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I sleep for 10 seconds                                    # com.teg.tryout.stepdefinitions.NavigationSteps.i_sleep(int)
+clickElementByText 'Go to checkout' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Go to checkout']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Go to checkout']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Go to checkout']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Go to checkout')]]
+No candidates found for XPATH: //a[@title='Go to checkout']
+No candidates found for XPATH: //a[normalize-space(@title)='Go to checkout']
+No candidates found for XPATH: //a[normalize-space(text())='Go to checkout']
+No candidates found for XPATH: //button[normalize-space(text())='Go to checkout']
+No candidates found for XPATH: //span[normalize-space(text())='Go to checkout']
+No candidates found for XPATH: //input[@id=//label[normalize-space()='Go to checkout']/@for]
+Found element 'Go to checkout' using XPATH: //input[@type='submit' and @value='Go to checkout']
+  ? Then I Click "Go to checkout"                                  # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+clickElementByText 'Submit payment' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Submit payment']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Submit payment']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Submit payment']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Submit payment')]]
+No candidates found for XPATH: //a[@title='Submit payment']
+No candidates found for XPATH: //a[normalize-space(@title)='Submit payment']
+No candidates found for XPATH: //a[normalize-space(text())='Submit payment']
+No candidates found for XPATH: //button[normalize-space(text())='Submit payment']
+No candidates found for XPATH: //span[normalize-space(text())='Submit payment']
+No candidates found for XPATH: //input[@id=//label[normalize-space()='Submit payment']/@for]
+No candidates found for XPATH: //input[@type='submit' and @value='Submit payment']
+Found element 'Submit payment' using XPATH: //input[@type='button' and @value='Submit payment']
+  ? Then I Click "Submit payment"                                  # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+clickElementByText 'Decline' clickElementByText
+waitForPageReady
+waitForPageReady
+No candidates found for XPATH: //span[normalize-space()='Decline']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //span[normalize-space(.)='Decline']/ancestor::*[self::button or @role='button']
+No candidates found for XPATH: //li[contains(@class,'menu-parent')]//a[@title='Decline']
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.), 'Decline')]]
+No candidates found for XPATH: //a[@title='Decline']
+No candidates found for XPATH: //a[normalize-space(@title)='Decline']
+No candidates found for XPATH: //a[normalize-space(text())='Decline']
+No candidates found for XPATH: //button[normalize-space(text())='Decline']
+No candidates found for XPATH: //span[normalize-space(text())='Decline']
+No candidates found for XPATH: //input[@id=//label[normalize-space()='Decline']/@for]
+No candidates found for XPATH: //input[@type='submit' and @value='Decline']
+No candidates found for XPATH: //input[@type='button' and @value='Decline']
+No candidates found for XPATH: //label[normalize-space(.)='Decline']
+No candidates found for XPATH: //div[normalize-space(.)='Decline']
+No candidates found for XPATH: //label[contains(normalize-space(.), 'Decline')]
+No candidates found for XPATH: //li[.//label[contains(normalize-space(.),'Decline')]]//input[@type='radio']
+Looking for element 'Decline' inside Shadow DOM
+waitForPageReadyDecline
+  ? Then I Click "Decline"                                         # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+        org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: stx-calendar (tried for 30 second(s) with 500 milliseconds interval)
+        	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+        	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+        	at com.teg.tryout.pages.PremierTicketekPage.findInShadowDomByText(PremierTicketekPage.java:224)
+        	at com.teg.tryout.pages.PremierTicketekPage.findElementByText(PremierTicketekPage.java:114)
+        	at com.teg.tryout.pages.PremierTicketekPage.clickElementByText(PremierTicketekPage.java:129)
+        	at com.teg.tryout.stepdefinitions.NavigationSteps.i_click(NavigationSteps.java:21)
+        	at ?.I Click "Decline"(file:///D:/Workplace/TegTestSample/src/test/resources/features/navigation.feature:21)
+        Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"stx-calendar"}
+          (Session info: chrome=144.0.7559.133)
+        For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+        Build info: version: '4.36.0', revision: '6d115cfd87'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [2976aa3697aa70ed4f2b52e90eab92ee, findElement {using=css selector, value=stx-calendar}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: D:\Workplace\TegTestSample\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58959}, goog:processID: 38864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58959/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 2976aa3697aa70ed4f2b52e90eab92ee
+        	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+        	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+        	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+        	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+        	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+        	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+        	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+        	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+        	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+        	... 5 more
+  ? Then I Click "Decline"                                         # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I Click "Decline"                                         # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I Click "Decline"                                         # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+  ? Then I Click "View your tickets"                               # com.teg.tryout.stepdefinitions.NavigationSteps.i_click(java.lang.String)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 121.9 s <<< FAILURE! -- in com.teg.tryout.TestRunner.TestRunner
+[ERROR] TryOut.Basket the zero valued admit with In app delivery option -- Time elapsed: 121.6 s <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: stx-calendar (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.teg.tryout.pages.PremierTicketekPage.findInShadowDomByText(PremierTicketekPage.java:224)
+	at com.teg.tryout.pages.PremierTicketekPage.findElementByText(PremierTicketekPage.java:114)
+	at com.teg.tryout.pages.PremierTicketekPage.clickElementByText(PremierTicketekPage.java:129)
+	at com.teg.tryout.stepdefinitions.NavigationSteps.i_click(NavigationSteps.java:21)
+	at ?.I Click "Decline"(file:///D:/Workplace/TegTestSample/src/test/resources/features/navigation.feature:21)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"stx-calendar"}
+  (Session info: chrome=144.0.7559.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2976aa3697aa70ed4f2b52e90eab92ee, findElement {using=css selector, value=stx-calendar}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: D:\Workplace\TegTestSample\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58959}, goog:processID: 38864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58959/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2976aa3697aa70ed4f2b52e90eab92ee
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 5 more
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   Expected condition failed: waiting for presence of element located by: By.cssSelector: stx-calendar (tried for 30 second(s) with 500 milliseconds interval)
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:03 min
+[INFO] Finished at: 2026-02-10T22:06:56+11:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project selenium-bdd: 
+[ERROR] 
+[ERROR] Please refer to D:\Workplace\TegTestSample\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
