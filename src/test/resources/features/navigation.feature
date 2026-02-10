@@ -5,7 +5,7 @@ Feature: TryOut
     Then I Click "Show menu options"
     Then I Click "Sign In / Sign up"
 	Then I Update "Email*" to "Donald_Nightingale@hotmail.com"
-	Then I Update "Password*" to "4micAcid!!!!"
+	Then I Update "Password*" to "XXXXX"
     Then I Click "Sign In"
 	Then I sleep for 10 seconds
     Then I Click "7:00 pm"
