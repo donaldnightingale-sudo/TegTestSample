@@ -18,10 +18,3 @@ Feature: TryOut
 	Then I sleep for 10 seconds
     Then I Click "Go to checkout"
     Then I Click "Submit payment"
-    Then I Click "Decline"
-    Then I Click "Decline"
-    Then I Click "Decline"
-    Then I Click "Decline"
-    Then I Click "View your tickets"
-	
-	
